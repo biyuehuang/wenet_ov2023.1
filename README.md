@@ -44,3 +44,4 @@ units=units.txt  # Change it to your model units path
     --openvino_device CPU \
     --unit_path $units 2>&1 | tee log.txt
 
+python wenet/bin/export_onnx_cpu.py --config /exp/aishell_u2pp_conformer_exp/train.yaml --checkpoint /exp/aishell_u2pp_conformer_exp/final.pt --output_dir /exp/aishell_u2pp_conformer_exp/onnx/ --chunk_size 16 --num_decoding_left_chunks -1
