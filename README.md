@@ -30,13 +30,13 @@ replace CMakeLists.txt
 
 ## step4: install 
  For Ubuntu and Debian:
- 
+``` 
 sudo apt install libtbb-dev libpugixml-dev
-
+```
  For CentOS:
- 
+``` 
 sudo yum install tbb-devel pugixml-devel
-
+```
 ## step5: download Pre OpenVINO2023.1 version
 ```
 $cd wenet/runtime/openvino/
