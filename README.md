@@ -14,13 +14,16 @@ $cd wenet/runtime/openvino/ov/
 
 replace ov_asr_model.h and ov_asr_model.cc
 
+
 $cd wenet/runtime/core/decoder/
 
 replace params.h
 
+
 $cd wenet/runtime/openvino/
 
 replace CMakeLists.txt
+
 
 ## step4: install 
  For Ubuntu and Debian:
